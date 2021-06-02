@@ -1,7 +1,7 @@
-var moment = require('moment');
-var math = require('mathjs');
+import moment from 'moment';
+const math = require('mathjs');
 
 console.log("Hello from JS!");
-var startOfDay = moment().startOf('day').fromNow();
-console.log(startOfDay);
+let startOfDay = moment().startOf('day').fromNow();
 console.log(math.sqrt(-4));
+console.log(`Today started ${startOfDay}`);
