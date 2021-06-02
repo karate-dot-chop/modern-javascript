@@ -5,3 +5,4 @@ console.log("Hello from JS!");
 let startOfDay = moment().startOf('day').fromNow();
 console.log(math.sqrt(-4));
 console.log(`Today started ${startOfDay}`);
+console.log("Webpack dev server working");
